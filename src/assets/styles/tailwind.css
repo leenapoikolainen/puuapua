@@ -3064,3 +3064,14 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(6, 78, 59, var(--tw-bg-opacity));
 }
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc { list-style-type: disc; }
+
+.whiteServiceBox{
+  margin-left:auto;
+  margin-right:auto;
+  }

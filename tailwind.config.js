@@ -22,6 +22,11 @@ module.exports = {
     colors: {
       ...colors,
     },
+    listStyleType: {
+      none: 'none',
+     disc: 'disc',
+     decimal: 'decimal',
+    },
     extend: {
       minHeight: {
         "screen-75": "75vh",
