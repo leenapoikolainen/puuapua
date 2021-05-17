@@ -16,6 +16,8 @@ import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Metsapalvelut from "views/Metsapalvelut.js";
 import Klapipalvelu from "views/Klapipalvelu.js";
+import Puunmyynti from "views/Puunmyynti.js";
+
 
 
 ReactDOM.render(
@@ -29,6 +31,8 @@ ReactDOM.render(
       <Route path="/" exact component={Landing} />
       <Route path="/metsapalvelut" exact component={Metsapalvelut} />
       <Route path="/klapipalvelu" exact component={Klapipalvelu} />
+      <Route path="/puunmyynti" exact component={Puunmyynti} />
+
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
     </Switch>

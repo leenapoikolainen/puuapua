@@ -5,7 +5,7 @@ import Navbar from "components/Navbars/Navbar.js";
 import Footer from "components/Footers/Footer.js";
 import background from "../assets/img/forest.jpg";
 
-export default function Klapipalvelu() {
+export default function Puunmyynti() {
     return (
         <>
             <Navbar transparent />
@@ -31,7 +31,7 @@ export default function Klapipalvelu() {
                                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white border-0">
                                     <div className="rounded-t mb-0 px-6 py-6">
                                         <h2 className="text-4xl text-center font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
-                                            Klapikone
+                                            Puun myynti
                                         </h2>
                                         <hr className="mt-6 border-b-1 border-blueGray-300" />
                                     </div>
@@ -51,31 +51,17 @@ export default function Klapipalvelu() {
                                                 <ul className="list-inside list-disc">
                                                     <li>Hinta koostuu tuosta ja tasta</li>
                                                     <li>50£ / tunti</li>
-                                                    <li><a href="mailto:leena.poikolainen@gmail.com?&subject=Tiedustelu klapipalvelusta">Email Us</a></li>
                                                 </ul>
                                             </p>
                                         </div>
-                                        
+                                    </div>
+                                    <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="container mx-auto px-4 h-full">
-                    <div className="flex content-center items-center justify-center text-center">
-                    <div className="w-full md:w-10/12 lg:w-8/12 px-4">
-                    <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                        type="button" href="mailto:leena.poikolainen@gmail.com?&subject=Tiedustelu klapipalvelusta">Laheta tiedustelu</a>
-                   
-                    </div>
-                    </div>
-  
-                        
-                    </div>
                 </section>
-   
-                
-  
             </main>
             <Footer />
         </>
