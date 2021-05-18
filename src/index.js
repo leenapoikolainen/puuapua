@@ -17,6 +17,7 @@ import Profile from "views/Profile.js";
 import Metsapalvelut from "views/Metsapalvelut.js";
 import Klapipalvelu from "views/Klapipalvelu.js";
 import Puunmyynti from "views/Puunmyynti.js";
+import Index from "views/Index.js";
 
 
 
@@ -32,6 +33,7 @@ ReactDOM.render(
       <Route path="/metsapalvelut" exact component={Metsapalvelut} />
       <Route path="/klapipalvelu" exact component={Klapipalvelu} />
       <Route path="/puunmyynti" exact component={Puunmyynti} />
+      <Route path="/index" exact component={Index} />
 
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
