@@ -55,9 +55,15 @@ export default function Puunmyynti() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container mx-auto px-4 h-full">
+                        <div className="flex content-center items-center justify-center text-center">
+                            <div className="w-full md:w-10/12 lg:w-8/12 px-4">
+                                <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                                    type="button" href="mailto:leena.poikolainen@gmail.com?&subject=Tiedustelu puun myynnista">Laheta tiedustelu</a>
                             </div>
                         </div>
                     </div>

@@ -58,7 +58,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
               <Link
-                to="/metsapalvelut" className={
+                to="/lisatietoja" className={
                 "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
                 }>Lisatietoja</Link>
               </li>

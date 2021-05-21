@@ -51,31 +51,24 @@ export default function Klapipalvelu() {
                                                 <ul className="list-inside list-disc">
                                                     <li>Hinta koostuu tuosta ja tasta</li>
                                                     <li>50£ / tunti</li>
-                                                    <li><a href="mailto:leena.poikolainen@gmail.com?&subject=Tiedustelu klapipalvelusta">Email Us</a></li>
                                                 </ul>
                                             </p>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="container mx-auto px-4 h-full">
-                    <div className="flex content-center items-center justify-center text-center">
-                    <div className="w-full md:w-10/12 lg:w-8/12 px-4">
-                    <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                        type="button" href="mailto:leena.poikolainen@gmail.com?&subject=Tiedustelu klapipalvelusta">Laheta tiedustelu</a>
-                   
-                    </div>
-                    </div>
-  
-                        
+                        <div className="flex content-center items-center justify-center text-center">
+                            <div className="w-full md:w-10/12 lg:w-8/12 px-4">
+                                <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                                    type="button" href="mailto:leena.poikolainen@gmail.com?&subject=Tiedustelu klapipalvelusta">Laheta tiedustelu</a>
+                            </div>
+                        </div>
                     </div>
                 </section>
-   
-                
-  
             </main>
             <Footer />
         </>
