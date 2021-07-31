@@ -107,7 +107,7 @@ export default function Landing() {
                     <div className="flex content-center items-center justify-center text-center">
                       <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5 mb-8">
                         <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                          type="button" href="mailto:puuapua@puuapua.fi@gmail.com?&subject=Tiedustelu metsäpalveluista">
+                          type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu metsäpalveluista">
                           Lähetä tiedustelu
                         </a>
                       </div>
@@ -227,7 +227,7 @@ export default function Landing() {
                     <div className="flex content-center items-center justify-center text-center">
                       <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5">
                         <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                          type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu klapikoneesta">
+                          type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu klapipalvelusta">
                           Lähetä tiedustelu
                         </a>
                       </div>
@@ -351,7 +351,7 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-10/12 px-4">
-                <h2 className="text-4xl font-semibold">Mitä muuta</h2>
+                <h2 className="text-4xl font-semibold">Mitä muuta?</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                   praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
