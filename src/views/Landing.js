@@ -28,15 +28,43 @@ export default function Landing() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="">
+                  {/*
                   <h1 className="text-white font-semibold text-4xl">
                     Puuapua
                   </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
-                    Puuapua auttaa sinua kaikessa metsaan liittyvassa.
-                    Lisatietoja palveluista loydat nailta sivuilta tai voit 
-                    ottaa meihin suoraan yhteytta niin kerromme mielellaan lisaa!
-                  </p>
+                  */}
+                  <div className="justify-center mt-10">
+                    <img
+                      alt="..."
+                      src={require("assets/img/logo.png").default}
+                      className="h-1/2 w-1/2 mx-auto"
+                    />
+                  </div>
+                  
+                  <div className="lg:pt-12 pt-6 w-full px-4 justify-center">
+                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                      <div className="px-4 py-5 flex-auto">
+                        
+                        <h6 className="text-xl font-semibold">Monipuoliset metsapalvelut</h6>
+                        <p className="mt-2 mb-4 text-blueGray-500 text-lg">
+                        Puuapua auttaa sinua kaikessa metsään liittyvässä.
+                      Lisätietoja palveluista löydät näiltä sivuilta tai voit
+                      ottaa meihin suoraan yhteytta niin kerromme mielellään lisää!
+                        </p>
+                        <div className="text-green-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full ">
+                          <i className="fas fa-phone"></i>
+                        </div>
+                        <div className="text-xl">
+                          <p><b>Puhelinumero:</b> 040 052 7577</p>
+                          <p><b>Sahkoposti:</b> puuapua@puuapua.fi</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
             </div>
@@ -61,7 +89,7 @@ export default function Landing() {
                   />
 
                   <blockquote className="relative p-8 mb-4">
-                  <Link
+                    <Link
                       to="/metsapalvelut"
                       className={
                         "text-xl font-bold block text-white"
@@ -70,7 +98,7 @@ export default function Landing() {
                       Metsapalvelut
                     </Link>
                     <p className="text-md font-light mt-2 text-white">
-                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta 
+                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta
                       lisatietoja.
                     </p>
                   </blockquote>
@@ -87,7 +115,7 @@ export default function Landing() {
                   />
 
                   <blockquote className="relative p-8 mb-4">
-                  <Link
+                    <Link
                       to="/klapipalvelu"
                       className={
                         "text-xl font-bold block text-white"
@@ -96,7 +124,7 @@ export default function Landing() {
                       Klapikone
                     </Link>
                     <p className="text-md font-light mt-2 text-white">
-                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta 
+                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta
                       lisatietoja.
                     </p>
                   </blockquote>
@@ -131,7 +159,7 @@ export default function Landing() {
                   />
 
                   <blockquote className="relative p-8 mb-4">
-                  <Link
+                    <Link
                       to="/puunmyynti"
                       className={
                         "text-xl font-bold block text-white"
@@ -140,7 +168,7 @@ export default function Landing() {
                       Puun myynti
                     </Link>
                     <p className="text-md font-light mt-2 text-white">
-                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta 
+                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta
                       lisatietoja.
                     </p>
                   </blockquote>
@@ -155,7 +183,7 @@ export default function Landing() {
                   />
 
                   <blockquote className="relative p-8 mb-4">
-                  <Link
+                    <Link
                       to="/lisatietoja"
                       className={
                         "text-xl font-bold block text-white"
@@ -164,7 +192,7 @@ export default function Landing() {
                       Lisatietoja
                     </Link>
                     <p className="text-md font-light mt-2 text-white">
-                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta 
+                      Tahan voi kirjoittaa kuvauksen palvelusta tai muuta
                       lisatietoja.
                     </p>
                   </blockquote>

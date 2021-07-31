@@ -1080,6 +1080,14 @@ select {
   }
 }
 
+/*
+ * Added background white with opacity
+ */
+
+.bg-white-opacity-7 {
+  --tw-bg-opacity: 0.70;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -1462,6 +1470,11 @@ select {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgba(5, 150, 105, var(--tw-text-opacity));
 }
 
 .leading-none {
