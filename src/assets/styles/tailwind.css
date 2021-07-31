@@ -1116,6 +1116,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(6, 78, 59, var(--tw-bg-opacity));
 }
+.bg-green-900-opacity	{
+  --tw-bg-opacity: 0.8;
+  background-color: rgba(6, 78, 59, var(--tw-bg-opacity));
+}
 
 .bg-forestGreen-100{
   --tw-bg-opacity: 1;

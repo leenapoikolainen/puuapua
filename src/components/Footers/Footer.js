@@ -12,10 +12,10 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center">
             <div className="w-full  px-4">
-              <h4 className="text-xl text-white font-semibold pb-4">Ota yhteytta</h4>
+              <h4 className="text-xl text-white font-semibold pb-4">Ota yhteyttä</h4>
               <ul className="text-white">
-                <li><strong>Puhelin:</strong> 040 000 0000</li>
-                <li><strong>Sahkoposti:</strong> puuapua@gmail.com</li>
+                <li><strong>Puhelin:</strong> 040 052 7577</li>
+                <li><strong>Sähköposti:</strong> puuapua@puuapua.fi</li>
               </ul>
             </div>
           </div>

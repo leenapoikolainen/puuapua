@@ -19,6 +19,7 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.3",
     "tailwindcss": "2.0.4"
   },
   "scripts": {
@@ -47,8 +48,5 @@
   "optionalDependencies": {
     "typescript": "4.2.3"
   },
-  "homepage": "/puuapua_test",
-  "eslintConfig": {
-    "extends": "react-app"
-  }
+  "homepage": "/puuapua_test"
 }
