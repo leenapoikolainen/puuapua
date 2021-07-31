@@ -46,29 +46,29 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link
                   to="/metsapalvelut" className={
-                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
-                  }>Metsapalvelut </Link>
+                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
+                  }>Puuta metsästä</Link>
               </li>
 
               <li className="flex items-center">
                 <Link
                   to="/klapipalvelu" className={
-                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
-                  }>Klapikone</Link>
+                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
+                  }>Puuta klapeiksi</Link>
               </li>
 
               <li className="flex items-center">
                 <Link
                   to="/puunmyynti" className={
-                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
-                  }>Puun myynti</Link>
+                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
+                  }>Puuta myydä</Link>
               </li>
 
               <li className="flex items-center">
                 <Link
                   to="/lisatietoja" className={
-                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
-                  }>Lisatietoja</Link>
+                    "lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
+                  }>Mitä muuta</Link>
               </li>
             </ul>
           </div>

@@ -44,16 +44,16 @@ export default function Landing() {
 
                         <h6 className="text-xl font-semibold">Monipuoliset metsäpalvelut</h6>
                         <p className="mt-2 mb-4 text-blueGray-500 text-lg">
-                          Puuapua auttaa sinua kaikessa metsään liittyvässä.
+                          PuuApua auttaa sinua kaikessa metsään liittyvässä.
                           Lisätietoja palveluista löydät näiltä sivuilta tai voit
-                          ottaa meihin suoraan yhteytta niin kerromme mielellään lisää!
+                          ottaa meihin suoraan yhteytta niin kerromme mielellämmelisää!
                         </p>
                         <div className="text-green-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full ">
                           <i className="fas fa-phone"></i>
                         </div>
                         <div className="text-xl">
                           <p><b>Puhelinumero:</b> 040 052 7577</p>
-                          <p><b>Sahkoposti:</b> puuapua@puuapua.fi</p>
+                          <p><b>Sähköposti:</b> puuapua@puuapua.fi</p>
                         </div>
 
                       </div>
@@ -93,7 +93,7 @@ export default function Landing() {
                 <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
 
                   <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                    Metsäpalvelut
+                    Puuta metsästä
                   </h3>
                   <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                     Tahan kuvaus palvelusta.
@@ -108,7 +108,7 @@ export default function Landing() {
                       <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5 mb-8">
                         <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                           type="button" href="mailto:puuapua@puuapua.fi@gmail.com?&subject=Tiedustelu metsäpalveluista">
-                          Laheta tiedustelu
+                          Lähetä tiedustelu
                         </a>
                       </div>
                     </div>
@@ -213,7 +213,7 @@ export default function Landing() {
                 <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
 
                   <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                    Klapikonepalvelut
+                    Puuta klapeiksi
                   </h3>
                   <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                     Tahan kuvaus palvelusta.
@@ -228,7 +228,7 @@ export default function Landing() {
                       <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5">
                         <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                           type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu klapikoneesta">
-                          Laheta tiedustelu
+                          Lähetä tiedustelu
                         </a>
                       </div>
                     </div>
@@ -266,7 +266,7 @@ export default function Landing() {
             <div className="flex flex-wrap items-center mt-10">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Puun myynti
+                  Puuta myydä
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                   Tahan kuvaus palvelusta.
@@ -281,7 +281,7 @@ export default function Landing() {
                     <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5 mb-8">
                       <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                         type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu puun myynnistä">
-                        Laheta tiedustelu
+                        Lähetä tiedustelu
                       </a>
                     </div>
                   </div>
@@ -351,7 +351,7 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-10/12 px-4">
-                <h2 className="text-4xl font-semibold">Lisätietoja</h2>
+                <h2 className="text-4xl font-semibold">Mitä muuta</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                   praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias

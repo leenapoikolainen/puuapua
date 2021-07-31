@@ -54,9 +54,9 @@ export default function ScrollingNavbar(props) {
                                     smooth={true}
                                     duration={500}
                                     className={
-                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
+                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    Metsäpalvelut
+                                    Puuta Metsästä
                                 </ScrollLink>
                             </li>
                             <li className="flex items-center">
@@ -66,9 +66,9 @@ export default function ScrollingNavbar(props) {
                                     smooth={true}
                                     duration={500}
                                     className={
-                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
+                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    Kalpikone
+                                    Puuta klapeiksi
                                 </ScrollLink>
                             </li>
                             <li className="flex items-center">
@@ -78,9 +78,9 @@ export default function ScrollingNavbar(props) {
                                     smooth={true}
                                     duration={500}
                                     className={
-                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
+                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    Puun myynti
+                                    Puuta myydä
                                 </ScrollLink>
                             </li>
                             <li className="flex items-center">
@@ -90,9 +90,9 @@ export default function ScrollingNavbar(props) {
                                     smooth={true}
                                     duration={500}
                                     className={
-                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
+                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    Lisätietoja
+                                    Mitä muuta?
                                 </ScrollLink>
                             </li>
                         </ul>
