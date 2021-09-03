@@ -26,10 +26,6 @@ ReactDOM.render(
       {/* add routes without layouts */}
       <Route path="/landing" exact component={Landing} />
       <Route path="/" exact component={Landing} />
-      <Route path="/metsapalvelut" exact component={Metsapalvelut} />
-      <Route path="/klapipalvelu" exact component={Klapipalvelu} />
-      <Route path="/puunmyynti" exact component={Puunmyynti} />
-      <Route path="/lisatietoja" exact component={Lisatiedot} />
       <Route path="/klapihinnasto" exact component={Klapihinnasto} />
 
       {/* add redirect for first page */}
