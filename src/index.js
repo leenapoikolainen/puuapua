@@ -14,7 +14,7 @@ import Metsapalvelut from "views/Metsapalvelut.js";
 import Klapipalvelu from "views/Klapipalvelu.js";
 import Puunmyynti from "views/Puunmyynti.js";
 import Lisatiedot from "views/Lisatiedot.js";
-import Test from "views/test.js";
+import Klapihinnasto from 'views/Klapihinnasto.js'
 
 
 
@@ -30,7 +30,7 @@ ReactDOM.render(
       <Route path="/klapipalvelu" exact component={Klapipalvelu} />
       <Route path="/puunmyynti" exact component={Puunmyynti} />
       <Route path="/lisatietoja" exact component={Lisatiedot} />
-      <Route path="/test" exact component={Test} />
+      <Route path="/klapihinnasto" exact component={Klapihinnasto} />
 
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

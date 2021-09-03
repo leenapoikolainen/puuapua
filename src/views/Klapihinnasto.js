@@ -1,18 +1,9 @@
-import React, { useEffect, useState, Fragment } from "react";
-import Tabletop from "tabletop";
-import axios from 'axios';
-
-import ScrollingNavbar from "components/Navbars/ScrollingNavbar";
+import React from "react";
 import Navbar from "components/Navbars/StaticNavBar";
 import Footer from "components/Footers/Footer.js";
-import background from "../assets/img/petajavesi.jpeg";
 
 
-
-export default function Test() {
-
-
-
+export default function Klapihinnasto() {
     return (
         <>
             <Navbar/>
@@ -26,8 +17,7 @@ export default function Test() {
                                 </iframe>
                              
                             </div>
-                        </div>
-                 
+                        </div>            
                 </div>
             <Footer />
         </>
