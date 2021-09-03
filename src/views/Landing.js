@@ -21,8 +21,7 @@ export default function Landing() {
             style={{
               backgroundImage: `url(${background})`
             }}
-          >
-            
+          >            
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
@@ -339,10 +338,18 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-10/12 px-4">
                 <h2 className="text-4xl font-semibold">Mitä muuta?</h2>
-                <p className="text-lg leading-relaxed m-4 text-blueGray-500">
+                <p className="text-lg leading-relaxed m-4 text-blueGray-500">  
                   PuuApua auttaa maisemanhoidollisissa raivauksissa. Tavaroiden ja varusteiden kuljetus onnistuu edullisesti myös hankalaan maastoon. 
-                  Voin auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.). 
-                  Teen kesäaikana jonkin verran ns. mökkitalkkarin hommia. Kuulun ennakkoperintärekisteriin ja työstäni saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
+                  
+                </p>
+                <p className="text-lg leading-relaxed m-4 text-blueGray-500"> 
+                Voin auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.). 
+                </p>
+                <p className="text-lg leading-relaxed m-4 text-blueGray-500"> 
+                Teen kesäaikana jonkin verran ns. mökkitalkkarin hommia. 
+                </p>
+                <p className="text-lg leading-relaxed m-4 text-blueGray-500"> 
+                Kuulun ennakkoperintärekisteriin ja työstäni saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
                 </p>
               </div>
             </div>
