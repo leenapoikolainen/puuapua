@@ -42,17 +42,17 @@ export default function Landing() {
                     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                       <div className="px-4 py-5 flex-auto">
 
-                        <h6 className="text-xl font-semibold">Monipuoliset metsäpalvelut</h6>
+                        <h6 className="text-xl font-semibold">Monipuoliset puupalvelut</h6>
                         <p className="mt-2 mb-4 text-blueGray-500 text-lg">
-                          PuuApua auttaa sinua kaikessa metsään liittyvässä.
-                          Lisätietoja palveluista löydät näiltä sivuilta tai voit
-                          ottaa meihin suoraan yhteytta niin kerromme mielellämmelisää!
+                          PuuApua auttaa sinua puuhun liittyvissä toiminnoissa. 
+                          Lisätietoja palveluista löydät näiltä sivuilta tai voit ottaa suoraan yhteyttä, 
+                          niin kerron mielelläni lisää ja tulen arvioimaan kohteesi!
                         </p>
                         <div className="text-green-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full ">
                           <i className="fas fa-phone"></i>
                         </div>
                         <div className="text-xl">
-                          <p><b>Puhelinumero:</b> 040 052 7577</p>
+                          <p><b>Puhelinnumero:</b> 040 258 7607</p>
                           <p><b>Sähköposti:</b> puuapua@puuapua.fi</p>
                         </div>
 
@@ -96,11 +96,10 @@ export default function Landing() {
                     Puuta metsästä
                   </h3>
                   <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                    Tahan kuvaus palvelusta.
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                    excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                    qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    PuuApua auttaa mm. tuulenkaatojen poistoissa (myös pienet määrät ja vaikeat maastot), 
+                    konkeloiden laukaisuissa, jättöpuiden noudoissa, rankojen keräämisessä, alueiden maisemoinneissa 
+                    sekä tietysti tekee puutavarasta polttopuita. 
+                    Kysy lisätietoja tai pyydä arviointikäynnille.  
                   </p>
 
                   <div className="container mx-auto px-4 h-full">
@@ -119,7 +118,7 @@ export default function Landing() {
                   <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white">
                     <img
                       alt="..."
-                      src={require("assets/img/puutyo.jpg").default}
+                      src={require("assets/img/PuuApuaMetsasta1.jpg").default}
                       className="w-full align-middle rounded-t-lg"
                     />
 
@@ -137,14 +136,11 @@ export default function Landing() {
                         ></polygon>
 
                       </svg>
-                      <h4 className="text-xl font-bold text-black">
-                        Hinnasto
-                      </h4>
                       <p className="text-md font-light mt-2 text-black">
-                        <ul className="list-inside list-disc">
-                          <li>Hinta koostuu xxx</li>
-                          <li>50€/h</li>
-                        </ul>
+                        Koneen työleveys on 1,2 metriä ja JärnHäst-vetokoneessa on kumitelat. 
+                        Vetokone toimii juonnoissa myös yksin ilman perävaunua. 
+                        Tarvittaessa vetokone kääntyy paikallaan ja kykenee toimimaan 
+                        vinssiensä avulla myös todella vaikeassa maastossa.
                       </p>
                     </blockquote>
                   </div>
@@ -182,7 +178,7 @@ export default function Landing() {
                   <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                     <img
                       alt="..."
-                      src={require("assets/img/wood.jpg").default}
+                      src={require("assets/img/Klapeiksi.jpg").default}
                       className="w-full align-middle rounded-t-lg bg-blueGray-200"
                     />
 
@@ -198,14 +194,10 @@ export default function Landing() {
                           className="text-blueGray-200 fill-current"
                         ></polygon>
                       </svg>
-                      <h4 className="text-xl font-bold text-black bg-blueGray-200">
-                        Hinnasto
-                      </h4>
                       <p className="text-md font-light mt-2 text-black bg-blueGray-200">
-                        <ul className="list-inside list-disc">
-                          <li>Hinta koostuu xxx</li>
-                          <li>50€/h</li>
-                        </ul>
+                        Kone on siirrettävä ja toimii omalla polttomoottorillaan. 
+                        Koneessa on säädettävä kuljetin, jonka avulla puut voi tehdä suoraan 
+                        vaikka liiteriin, verkkohäkkiin tai klapisäkkeihin.
                       </p>
                     </blockquote>
                   </div>
@@ -216,11 +208,10 @@ export default function Landing() {
                     Puuta klapeiksi
                   </h3>
                   <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                    Tahan kuvaus palvelusta.
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                    excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                    qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    Teen asiakkaiden puista, asiakkaiden luona polttopuita eli klapeja. 
+                    Polttopuiden tekoon on Pilkemaster Evo 30. Kone on tehokas ja  helposti siirrettävä. 
+                    Se toimii polttomoottorin voimalla. Puunhalkaisija voi olla max. 35cm ja 
+                    valmiin polttopuun pituudeksi voi valita 20-60 cm.
                   </p>
 
                   <div className="container mx-auto px-4 h-full">
@@ -266,14 +257,13 @@ export default function Landing() {
             <div className="flex flex-wrap items-center mt-10">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Puuta myydä
+                  Puuta myytäväksi
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Tahan kuvaus palvelusta.
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                  excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                  qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                  Myyn myös jonkin verran valmista polttopuuta. Voin tehdä klapeja asiakkaan tarpeiden mukaan: 
+                  puulaji, klapin pituus, klapin koko. Tässä tapauksessa kannattaa tilaus tehdä jo keväällä. 
+                  Tarvittaessa voin toimittaa valmiiksi katkottuja (esim. 30 cm) puupöllejä kokonaisina ja halkaisupöllin, 
+                  jolloin asiakas voi itse nautiskella klapien teosta. <b>Toimitan myös pienempiä määriä.</b>
                 </p>
 
                 <div className="container mx-auto px-4 h-full">
@@ -309,13 +299,10 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-black">
-                      Hinnasto
+                      Hinnoittelu
                     </h4>
-                    <p className="text-md font-light mt-2 text-black">
-                      <ul className="list-inside list-disc">
-                        <li>Hinta koostuu xxx</li>
-                        <li>50€/h</li>
-                      </ul>
+                    <p className="text-md font-light mt-2 text-black">  
+                        Hinnat vaihtelevat puulajien ja toimitusmäärien sekä kuivuusasteen mukaan.                     
                     </p>
                   </blockquote>
                 </div>
@@ -353,14 +340,9 @@ export default function Landing() {
               <div className="w-full lg:w-10/12 px-4">
                 <h2 className="text-4xl font-semibold">Mitä muuta?</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                  excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                  qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                  excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                  qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                  PuuApua auttaa maisemanhoidollisissa raivauksissa. Tavaroiden ja varusteiden kuljetus onnistuu edullisesti myös hankalaan maastoon. 
+                  Voin auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.). 
+                  Teen kesäaikana jonkin verran ns. mökkitalkkarin hommia. Kuulun ennakkoperintärekisteriin ja työstäni saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
                 </p>
               </div>
             </div>

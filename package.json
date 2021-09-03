@@ -1,7 +1,7 @@
 {
-  "name": "notus-react",
+  "name": "PuuApua",
   "version": "1.1.0",
-  "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
+  "description": "PuuApua website",
   "repository": "https://github.com/creativetimofficial/notus-react",
   "license": "MIT",
   "dependencies": {
@@ -9,6 +9,7 @@
     "@popperjs/core": "2.9.1",
     "@tailwindcss/forms": "0.2.1",
     "autoprefixer": "10.2.5",
+    "axios": "^0.21.1",
     "chart.js": "2.9.4",
     "emailjs-com": "^2.6.4",
     "gulp": "4.0.2",
@@ -20,6 +21,7 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.3",
+    "tabletop": "^1.6.3",
     "tailwindcss": "2.0.4"
   },
   "scripts": {
@@ -48,5 +50,5 @@
   "optionalDependencies": {
     "typescript": "4.2.3"
   },
-  "homepage": "/puuapua_test"
+  "homepage": "/puuapua_production"
 }

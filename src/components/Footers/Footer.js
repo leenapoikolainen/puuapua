@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center">
             <div className="w-full  px-4">
-              <h4 className="text-xl text-white font-semibold pb-4">PuuApua</h4>
+              <h4 className="text-xl text-white font-semibold pb-4">PuuApua Auttaa</h4>
               <ul className="text-white">
-                <li><strong>Puhelin:</strong> 040 052 7577</li>
+                <li><strong>Puhelin:</strong> 040 258 7607</li>
                 <li><strong>Sähköposti:</strong> puuapua@puuapua.fi</li>
                 <li><strong>Y-tunnus:</strong> 3194997-2</li>
               </ul>
