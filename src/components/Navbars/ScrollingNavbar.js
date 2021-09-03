@@ -4,8 +4,6 @@ import Scroll from "react-scroll";
 const ScrollLink = Scroll.Link;
 import { Link } from "react-router-dom";
 
-
-
 export default function ScrollingNavbar(props) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
@@ -24,12 +22,6 @@ export default function ScrollingNavbar(props) {
                                     }>
                                     PUUAPUA
                                 </ScrollLink>
-                        {/*
-                        <Link
-                            className="text-white text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                            to="/landing"
-                        >PUUAPUA </Link>
-                        */}
                         <button
                             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
