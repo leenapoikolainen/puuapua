@@ -175,7 +175,7 @@ export default function Landing() {
                   <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                     <img
                       alt="..."
-                      src={require("assets/img/Klapeiksi.jpg").default}
+                      src={require("assets/img/klapeiksi2.jpg").default}
                       className="w-full align-middle rounded-t-lg bg-blueGray-200"
                     />
 
@@ -279,8 +279,9 @@ export default function Landing() {
                   <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white">
                     <img
                       alt="..."
-                      src={require("assets/img/klapikasa.jpg").default}
+                      src={require("assets/img/klapikasa2.jpg").default}
                       className="w-full align-middle rounded-t-lg"
+                      title="Photo by Paula from Pexels"
                     />
 
                     <blockquote className="relative p-8 mb-4">
@@ -323,11 +324,7 @@ export default function Landing() {
                 viewBox="0 0 2560 100"
                 x="0"
                 y="0"
-              >
-                <polygon
-                  className="text-blueGray-200 fill-current"
-                  points="2560 0 2560 100 0 100"
-                ></polygon>
+              >   
               </svg>
             </div>
           </section>
