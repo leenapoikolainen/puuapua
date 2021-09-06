@@ -12,7 +12,7 @@ export default function StaticNavbar(props) {
                         <Link
                             className="text-white text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                             to="/home"
-                        >Takaisin pääsivulle </Link>             
+                        >Takaisin pääsivulle </Link>          
                     </div>
                 </div>
             </nav>
