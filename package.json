@@ -1,8 +1,7 @@
 {
-  "name": "PuuApua",
+  "name": "puuapua",
   "version": "1.1.0",
   "description": "PuuApua website",
-  "repository": "https://github.com/creativetimofficial/notus-react",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
@@ -52,5 +51,9 @@
   "optionalDependencies": {
     "typescript": "4.2.3"
   },
-  "homepage": "/puuapua_production"
+  "homepage": "/puuapua_production",
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+
 }

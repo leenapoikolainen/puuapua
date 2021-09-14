@@ -9,7 +9,6 @@ import "assets/styles/tailwind.css";
 import Landing from "views/Landing.js";
 import Klapihinnasto from 'views/Klapihinnasto.js'
 
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

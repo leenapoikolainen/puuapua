@@ -303,10 +303,9 @@ export default function Landing() {
                         Hinnat vaihtelevat puulajien ja toimitusmäärien sekä kuivuusasteen mukaan. 
                         Päivitetyt hinnat löytyvät täältä:  
                       </p>
-                      <p className="text-md mt-2 text-black">
-                        <u><a href="/klapihinnasto">Klapihinnasto</a></u>
+                      <p className="text-md mt-4 text-black">
+                        <Link to="/klapihinnasto">Klapihinnasto</Link>
                       </p>
-                      <Link to="/klapihinnasto" ></Link>
                     </blockquote>
                   </div>
                 </div>
@@ -330,29 +329,31 @@ export default function Landing() {
           </section>
         </Element>
 
-
-
         <Element id="lisatietoja" name="lisatietoja">
           <section className="pt-20 pb-30">
             <div className="container mx-auto px-4">
-              <div className="flex flex-wrap justify-center text-center mb-24">
+              <div className="flex flex-wrap justify-center text-center">
                 <div className="w-full lg:w-10/12 px-4">
                   <h2 className="text-4xl font-semibold">Mitä muuta?</h2>
-                  <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                    PuuApua auttaa maisemanhoidollisissa raivauksissa. Tavaroiden ja varusteiden kuljetus onnistuu edullisesti myös hankalaan maastoon.
-                  </p>
-                  <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                    Voin auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.).
-                  </p>
-                  <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                    Teen kesäaikana jonkin verran ns. mökkitalkkarin hommia.
-                  </p>
-                  <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                    Kuulun ennakkoperintärekisteriin ja työstäni saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
-                  </p>
                 </div>
               </div>
-            </div>
+                  <div className="container justify-start w-full md:w-1/2 px-4 mb-24">
+                    <ul class="list-disc list-outside text-lg m-4 text-blueGray-500">
+                      <li>
+                        PuuApua auttaa maisemanhoidollisissa raivauksissa. Tavaroiden ja varusteiden kuljetus onnistuu edullisesti myös hankalaan maastoon.</li>
+                      <li>
+                        Voin auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.).
+                      </li>
+                      <li>
+                        Teen kesäaikana myös jonkin verran ns. mökkitalkkarin hommia.
+                      </li>
+                      <li>
+                        Kuulun ennakkoperintärekisteriin ja työstäni saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            
           </section>
         </Element>
 

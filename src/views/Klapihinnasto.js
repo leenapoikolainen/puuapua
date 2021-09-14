@@ -18,11 +18,9 @@ export default function Klapihinnasto() {
                     <iframe height="400" width="550" className="embed-responsive-item "
                         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6x1GkXEvrfbmHIJoPZAXp4wxiRX1ANqOk_E-ybGTS56Cgh1R1UPBH96o8FFQXhKn8Vt-cnIH_lnuA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
                     >
-                    </iframe>
-                     
+                    </iframe>                
                 </div>
             </div>
-
             <Footer />
         </>
     );
