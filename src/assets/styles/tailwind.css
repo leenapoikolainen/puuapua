@@ -1313,6 +1313,11 @@ select {
           justify-content: flex-end;
 }
 
+.justify-start {
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+
 .justify-center {
   -webkit-justify-content: center;
           justify-content: center;
@@ -1953,6 +1958,22 @@ select {
   padding-left: 1rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1967,6 +1988,14 @@ select {
 
 .pl-10 {
   padding-left: 2.5rem;
+}
+
+.pl-11 {
+  padding-left: 2.75rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pt-12 {
