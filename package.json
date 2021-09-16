@@ -51,7 +51,7 @@
   "optionalDependencies": {
     "typescript": "4.2.3"
   },
-  "homepage": "/puuapua_production",
+  "homepage": ".",
   "eslintConfig": {
     "extends": "react-app"
   }
