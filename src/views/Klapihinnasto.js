@@ -16,10 +16,10 @@ export default function Klapihinnasto() {
                 </div>
                 <div class="pl-7 justify-start"> 
                     <iframe height="500" width="90%" className=""
-                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6x1GkXEvrfbmHIJoPZAXp4wxiRX1ANqOk_E-ybGTS56Cgh1R1UPBH96o8FFQXhKn8Vt-cnIH_lnuA/pubhtml?gid=0&amp;widget=false&amp;headers=false&amp;chrome=false&amp;range=A1:B26"
+                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS_2cjcj875181i4yjUBu43E7CxresBqLCPdBKx2_WXQyB8R0X2KhKrWkRIdfisT_X_J-SATIjd34va/pubhtml?gid=0&amp;widget=false&amp;headers=false&amp;chrome=false&amp;range=A1:B26"
                     >
-                    </iframe>                
-                </div>
+                    </iframe>   
+               </div>
             </div>
             
             <Footer />

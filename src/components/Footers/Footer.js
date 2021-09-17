@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-white font-semibold py-1">
                 Copyright © {new Date().getFullYear()} {" "}
-                  PuuApua
+                  leena.dev
               </div>
             </div>
           </div>

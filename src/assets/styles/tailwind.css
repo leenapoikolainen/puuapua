@@ -2289,6 +2289,10 @@ select {
   text-decoration: none;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

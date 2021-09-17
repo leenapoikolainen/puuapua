@@ -304,7 +304,7 @@ export default function Landing() {
                         Päivitetyt hinnat löytyvät täältä:  
                       </p>
                       <p className="text-md mt-4 text-black">
-                        <Link to="/klapihinnasto">Klapihinnasto</Link>
+                        <Link to="/klapihinnasto" className="underline">Siirry klapihinnastoon</Link>
                       </p>
                     </blockquote>
                   </div>
