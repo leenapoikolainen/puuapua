@@ -13,6 +13,12 @@ export default function Klapihinnasto() {
                     <h3 className="text-3xl mb-2 font-semibold leading-normal">
                         Klapierät
                     </h3>
+                    <div className="container mb-4 flex flex-wrap">
+                        <p>
+                            Soita 040 258 76 07 ja varmista saatavuus!
+                        </p>
+                    </div>
+                    
                 </div>
                 <div class="pl-7 justify-start"> 
                     <iframe height="500" width="90%" className=""

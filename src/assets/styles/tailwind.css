@@ -1486,6 +1486,11 @@ select {
   color: rgba(5, 150, 105, var(--tw-text-opacity));
 }
 
+.text-green-900	{
+  --tw-bg-opacity: 1;
+  color: rgba(6, 78, 59, var(--tw-bg-opacity));
+}
+
 .leading-none {
   line-height: 1;
 }

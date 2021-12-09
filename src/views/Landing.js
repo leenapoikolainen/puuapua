@@ -73,10 +73,12 @@ export default function Landing() {
               x="0"
               y="0"
             >
+              {/*
               <polygon
                 className="text-blueGray-200 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
+              */}
             </svg>
           </div>
         </div>
@@ -96,7 +98,7 @@ export default function Landing() {
 
                     PuuApua auttaa mm. tuulenkaatojen poistoissa (myös pienet määrät ja vaikeat maastot),
                     konkeloiden laukaisuissa, jättöpuiden noudoissa, rankojen keräämisessä, alueiden maisemoinneissa
-                    sekä tietysti tekee puutavarasta polttopuita.
+                    sekä tietysti tekee tarvittaessa puista klapeja.
                     Kysy lisätietoja tai pyydä arviointikäynnille.
                   </p>
 
@@ -135,9 +137,9 @@ export default function Landing() {
                         */}
                       </svg>
                       <p className="text-md font-light mt-2 text-black">
-                        <a href="https://www.youtube.com/watch?v=2i75aFAHk5s" target="_blank" rel="noopener noreferrer"><u>JärnHäst-vetokoneen</u></a> työleveys on 1,2 metriä 
-                        ja kone on varustettu kumiteloilla. JärnHäst toimii juonnoissa myös yksin ilman perävaunua. 
-                        Tarvittaessa vetokone kääntyy paikallaan ja kykenee toimimaan kahden vinssinsä avulla myös todella vaikeassa maastossa. 
+                        <a href="https://www.youtube.com/watch?v=2i75aFAHk5s" target="_blank" rel="noopener noreferrer" className="underline text-green-900">JärnHäst-vetokoneen</a> työleveys on 1,2 metriä
+                        ja kone on varustettu kumiteloilla. JärnHäst toimii juonnoissa myös yksin ilman perävaunua.
+                        Tarvittaessa vetokone kääntyy paikallaan ja kykenee toimimaan kahden vinssinsä avulla myös todella vaikeassa maastossa.
                         Perävaununa on VahvaJussi 400 varustettuna hydraulisella nosturilla, jonka suurin nostovoima on 530kg.
                       </p>
                     </blockquote>
@@ -163,15 +165,44 @@ export default function Landing() {
                 x="0"
                 y="0"
               >
+                {/*
                 <polygon
                   className="text-white fill-current"
                   points="2560 0 2560 100 0 100"
                 ></polygon>
+                */}
               </svg>
             </div>
 
             <div className="container mx-auto px-4">
               <div className="items-center flex flex-wrap">
+
+                <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+
+                  <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                    Puuta klapeiksi
+                  </h3>
+                  <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                    PuuApua tekee myös asiakkaiden puista, asiakkaiden luona polttopuita eli klapeja. 
+                    Klapikoneena on Pilkemaster Evo 30, jokaon tehokas ja helposti siirrettävä. 
+                    Puun halkaisija voi olla max. 35cm ja valmiin polttopuun pituudeksi voi valita 20-60 cm. 
+                    Kone halkaisee puut 2, 4 tai 6 osaan. 
+                    Joissain tapauksissa työn osuudesta on mahdollisuus saada kotitalousvähennystä verottajan ohjeiden mukaisesti.
+                    
+                  </p>
+
+                  <div className="container mx-auto px-4 h-full">
+                    <div className="flex content-center items-center justify-center text-center">
+                      <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5">
+                        <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                          type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu klapipalvelusta">
+                          Lähetä tiedustelu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                   <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                     <img
@@ -187,42 +218,22 @@ export default function Landing() {
                         viewBox="0 0 583 95"
                         className="absolute left-0 w-full block h-95-px -top-94-px "
                       >
+                        {/*
                         <polygon
                           points="-30,95 583,95 583,65"
                           className="text-blueGray-200 fill-current"
                         ></polygon>
+                        */}
                       </svg>
                       <p className="text-md font-light mt-2 text-black bg-blueGray-200">
-                        Kone on siirrettävä ja toimii omalla polttomoottorillaan.
-                        Koneessa on säädettävä kuljetin, jonka avulla puut voi tehdä suoraan
-                        vaikka liiteriin, verkkohäkkiin tai klapisäkkeihin.
+                        <a href="https://www.youtube.com/watch?v=aNN_90qIsVY" target="_blank" rel="noopener noreferrer" className="underline text-green-900">Pilkemaster Evo 30</a> on siirrettävä klapikone, 
+                        joka toimii omalla polttomoottorillaan. Koneessa on säädettävä kuljetin, jonka avulla puut voi tehdä suoraan vaikka perävaunuun, liiteriin, verkkohäkkiin tai klapisäkkeihin. 
                       </p>
                     </blockquote>
                   </div>
                 </div>
-                <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
 
-                  <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                    Puuta klapeiksi
-                  </h3>
-                  <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                    Teen asiakkaiden puista, asiakkaiden luona polttopuita eli klapeja.
-                    Polttopuiden tekoon on Pilkemaster Evo 30. Kone on tehokas ja  helposti siirrettävä.
-                    Se toimii polttomoottorin voimalla. Puunhalkaisija voi olla max. 35cm ja
-                    valmiin polttopuun pituudeksi voi valita 20-60 cm.
-                  </p>
 
-                  <div className="container mx-auto px-4 h-full">
-                    <div className="flex content-center items-center justify-center text-center">
-                      <div className="w-full md:w-10/12 lg:w-8/12 px-4 mt-5">
-                        <a className="bg-yellow-500 text-black active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                          type="button" href="mailto:puuapua@puuapua.fi?&subject=Tiedustelu klapipalvelusta">
-                          Lähetä tiedustelu
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -239,10 +250,12 @@ export default function Landing() {
                 x="0"
                 y="0"
               >
+                {/*
                 <polygon
                   className="text-blueGray-200 fill-current"
                   points="2560 0 2560 100 0 100"
                 ></polygon>
+                */}
               </svg>
             </div>
           </section>
@@ -258,10 +271,8 @@ export default function Landing() {
                     Puuta myytäväksi
                   </h3>
                   <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                    Myyn myös jonkin verran valmista polttopuuta. Voin tehdä klapeja asiakkaan tarpeiden mukaan:
-                    puulaji, klapin pituus, klapin koko. Tässä tapauksessa kannattaa tilaus tehdä jo keväällä.
-                    Tarvittaessa voin toimittaa valmiiksi katkottuja (esim. 30 cm) puupöllejä kokonaisina ja halkaisupöllin,
-                    jolloin asiakas voi itse nautiskella klapien teosta. <b>Toimitan myös pienempiä määriä.</b>
+                    PuuApua myy myös jonkin verran valmista polttopuuta, sekä tekee sovittaessa klapeja asiakkaan toiveiden mukaan: puulaji, klapin pituus, klapin koko on valittavissa. 
+                    Em.tapauksessa kannattaa tilaus tehdä jo keväällä. Tarvittaessa PuuApua toimittaa valmiiksi katkottuja (esim. 30 cm) puupöllejä kokonaisina ja halkaisupöllin, jolloin asiakas voi itse nautiskella klapien teosta. <b>PuuApua toimittaa klapeja myös pienempiä määriä. </b>
                   </p>
 
                   <div className="container mx-auto px-4 h-full">
@@ -292,17 +303,20 @@ export default function Landing() {
                         viewBox="0 0 583 95"
                         className="absolute left-0 w-full block h-95-px -top-94-px"
                       >
+                        {/*
                         <polygon
                           points="-30,95 583,95 583,65"
                           className="text-white fill-current "
                         ></polygon>
+                        */}
                       </svg>
                       <h4 className="text-xl font-bold text-black">
                         Hinnoittelu
                       </h4>
                       <p className="text-md font-light mt-2 text-black">
-                        Hinnat vaihtelevat puulajien ja toimitusmäärien sekä kuivuusasteen mukaan. 
-                        Päivitetyt hinnat löytyvät täältä:  
+                        Polttopuun hinta vaihtelee puulajien, vuodenaikojen, toimitusmäärien sekä kuivuusasteen mukaan. 
+                        Puukaupassa käytetään erilaisia <a href="https://www.halkoliiteri.com/polttopuuinfo/termit-ja-mittayksikot" target="_blank" rel="noopener noreferrer" className="underline text-green-900">termejä</a> ja <a href="https://www.halkoliiteri.com/polttopuuinfo/polttopuun-ominaisuudet " target="_blank" rel="noopener noreferrer" className="underline text-green-900">lämpöarvot</a> vähän vaihtelevat.
+                        
                       </p>
                       <p className="text-md mt-4 text-black">
                         <Link to="/klapihinnasto" className="underline">Siirry klapihinnastoon</Link>
@@ -324,7 +338,7 @@ export default function Landing() {
                 viewBox="0 0 2560 100"
                 x="0"
                 y="0"
-              >   
+              >
               </svg>
             </div>
           </section>
@@ -338,23 +352,23 @@ export default function Landing() {
                   <h2 className="text-4xl font-semibold">Mitä muuta?</h2>
                 </div>
               </div>
-                  <div className="container justify-start w-full md:w-1/2 px-4 mb-24">
-                    <ul class="list-disc list-outside text-lg m-4 text-blueGray-500">
-                      <li>
-                        PuuApua auttaa maisemanhoidollisissa raivauksissa. Tavaroiden ja varusteiden kuljetus onnistuu edullisesti myös hankalaan maastoon.</li>
-                      <li>
-                        Voin auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.).
-                      </li>
-                      <li>
-                        Teen kesäaikana myös jonkin verran ns. mökkitalkkarin hommia.
-                      </li>
-                      <li>
-                        Kuulun ennakkoperintärekisteriin ja työstäni saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            
+              <div className="container justify-start w-full md:w-1/2 px-4 mb-24">
+                <ul class="list-disc list-outside text-lg m-4 text-blueGray-500">
+                  <li>
+                    PuuApua auttaa maisemanhoidollisissa raivauksissa. Tavaroiden ja varusteiden kuljetus onnistuu edullisesti myös hankalaan maastoon.</li>
+                  <li>
+                    PuuApua auttaa pienissä moottori- ja raivaussahoihin liittyvissä ongelmissa (puhdistukset,säädöt, käynnistysongelmat, teroitukset ym.).
+                  </li>
+                  <li>
+                    Lumettomana aikana PuuApua tekee myös jonkin verran ns. mökkitalkkarin hommia.
+                  </li>
+                  <li>
+                    PuuApua kuuluu ennakkoperintärekisteriin ja työnosuudesta saa kotitalousvähennyksen verottajan ohjeistuksen mukaisesti.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
           </section>
         </Element>
 
