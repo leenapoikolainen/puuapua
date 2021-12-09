@@ -18,9 +18,9 @@ export default function ScrollingNavbar(props) {
                                     smooth={true}
                                     duration={500}
                                     className={
-                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md uppercase font-bold"
+                                        "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    PUUAPUA
+                                    PuuApua
                                 </ScrollLink>
                         <button
                             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -48,7 +48,7 @@ export default function ScrollingNavbar(props) {
                                     className={
                                         "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    Puuta Metsästä
+                                    Puuta metsästä
                                 </ScrollLink>
                             </li>
                             <li className="flex items-center">
@@ -72,7 +72,7 @@ export default function ScrollingNavbar(props) {
                                     className={
                                         "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
                                     }>
-                                    Puuta myydä
+                                    Puuta myytäväksi
                                 </ScrollLink>
                             </li>
                             <li className="flex items-center">

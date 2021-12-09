@@ -39,7 +39,7 @@ export default function Landing() {
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                     <div className="px-4 py-5 flex-auto">
 
-                      <h6 className="text-xl font-semibold">Monipuoliset puupalvelut</h6>
+                      <h6 className="text-xl font-semibold">Monipuoliset palvelut</h6>
                       <p className="mt-2 mb-4 text-blueGray-500 text-lg">
                         PuuApua auttaa sinua puuhun liittyvissä toiminnoissa.
                         Lisätietoja palveluista löydät näiltä sivuilta tai voit ottaa suoraan yhteyttä,
@@ -93,6 +93,7 @@ export default function Landing() {
                     Puuta metsästä
                   </h3>
                   <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+
                     PuuApua auttaa mm. tuulenkaatojen poistoissa (myös pienet määrät ja vaikeat maastot),
                     konkeloiden laukaisuissa, jättöpuiden noudoissa, rankojen keräämisessä, alueiden maisemoinneissa
                     sekä tietysti tekee puutavarasta polttopuita.
@@ -126,18 +127,18 @@ export default function Landing() {
                         viewBox="0 0 583 95"
                         className="absolute left-0 w-full block h-95-px -top-94-px"
                       >
-
+                        {/*  
                         <polygon
                           points="-30,95 583,95 583,65"
                           className="text-white fill-current "
                         ></polygon>
-
+                        */}
                       </svg>
                       <p className="text-md font-light mt-2 text-black">
-                        Koneen työleveys on 1,2 metriä ja JärnHäst-vetokoneessa on kumitelat.
-                        Vetokone toimii juonnoissa myös yksin ilman perävaunua.
-                        Tarvittaessa vetokone kääntyy paikallaan ja kykenee toimimaan
-                        vinssiensä avulla myös todella vaikeassa maastossa.
+                        <a href="https://www.youtube.com/watch?v=2i75aFAHk5s" target="_blank" rel="noopener noreferrer"><u>JärnHäst-vetokoneen</u></a> työleveys on 1,2 metriä 
+                        ja kone on varustettu kumiteloilla. JärnHäst toimii juonnoissa myös yksin ilman perävaunua. 
+                        Tarvittaessa vetokone kääntyy paikallaan ja kykenee toimimaan kahden vinssinsä avulla myös todella vaikeassa maastossa. 
+                        Perävaununa on VahvaJussi 400 varustettuna hydraulisella nosturilla, jonka suurin nostovoima on 530kg.
                       </p>
                     </blockquote>
                   </div>

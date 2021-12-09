@@ -13,7 +13,6 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
 
-
       {/* add routes without layouts */}
       <Route path="/" exact component={Landing} />
       <Route path="/" exact component={Landing} />
