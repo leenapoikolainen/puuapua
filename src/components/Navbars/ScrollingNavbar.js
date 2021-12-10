@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function ScrollingNavbar(props) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
+    const toggleMenu = () => setNavbarOpen(!navbarOpen);
     return (
         <>
             <nav className="bg-green-900 p-2 mt-0 fixed w-full z-10 top-0 items-center justify-between">
@@ -47,7 +48,9 @@ export default function ScrollingNavbar(props) {
                                     duration={500}
                                     className={
                                         "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
-                                    }>
+                                    }
+                                    onClick={toggleMenu}
+                                    >
                                     Puuta metsästä
                                 </ScrollLink>
                             </li>
@@ -59,7 +62,9 @@ export default function ScrollingNavbar(props) {
                                     duration={500}
                                     className={
                                         "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
-                                    }>
+                                    }
+                                    onClick={toggleMenu}
+                                    >
                                     Puuta klapeiksi
                                 </ScrollLink>
                             </li>
@@ -71,7 +76,9 @@ export default function ScrollingNavbar(props) {
                                     duration={500}
                                     className={
                                         "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
-                                    }>
+                                    }
+                                    onClick={toggleMenu}
+                                    >
                                     Puuta myytäväksi
                                 </ScrollLink>
                             </li>
@@ -83,7 +90,9 @@ export default function ScrollingNavbar(props) {
                                     duration={500}
                                     className={
                                         "cursor-pointer lg:text-white lg:hover:text-forestGreen-200 text-white px-3 py-4 lg:py-2 flex items-center text-md font-bold"
-                                    }>
+                                    }
+                                    onClick={toggleMenu}
+                                    >
                                     Mitä muuta?
                                 </ScrollLink>
                             </li>
