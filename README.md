@@ -1,8 +1,7 @@
 
-### Website in progress using React and Tailwind
+### Website with React and Tailwind
 
-This website is planned for a Finnish entrepreneur. It's the first version to get feedback on the styling and functionality.
-Pictures and text are now placeholders.
+This website is a website for a small Finnish forest company, built with React and Tailwind.
 
 ### This website is build with the help of Tailwind Started Kit by Creative Tim.
 
