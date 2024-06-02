@@ -39,10 +39,11 @@ export default function Landing() {
                         Monipuoliset palvelut
                       </h6>
                       <p className="mt-2 mb-4 text-blueGray-500 text-lg">
-                        PuuApua auttaa sinua puuhun liittyvissä toiminnoissa.
-                        Lisätietoja palveluista löydät näiltä sivuilta tai voit
-                        ottaa suoraan yhteyttä, niin kerron mielelläni lisää ja
-                        tulen arvioimaan kohteesi!
+                        PuuApua auttaa sinua puuhun liittyvissä toiminnoissa
+                        Petäjävedellä ja lähialueilla. Lisätietoja palveluista
+                        löydät näiltä sivuilta tai voit ottaa suoraan yhteyttä,
+                        niin kerron mielelläni lisää ja tulen arvioimaan
+                        kohteesi!
                       </p>
                       <div className="text-green-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full ">
                         <i className="fas fa-phone"></i>
